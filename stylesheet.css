@@ -1,0 +1,161 @@
+
+/* Navigation Bar */
+nav li{
+	float: right;
+}
+nav, section {
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li#profile {
+	margin-top: 7px;
+	margin-left:19px;
+	margin-right: 21px;
+	}
+
+li#notifs {
+	height: 20px;
+	width: 20px;
+	margin-top: 13px;
+	margin-left: 27px;
+	background-color: #767676;
+	border-radius: 100%;
+}	
+li#apps{
+	width: 16px;
+	height: 16px;
+	margin-top: 15px;
+	margin-left: 13px;
+}
+
+li#gmail, li#images {
+	margin-top: 13px;
+
+}
+
+li#gmail a, li#images a {
+	text-decoration: none;
+	font-size: 13px;
+	color:#4c4c4c;
+}
+
+li#apps div, li#notifs, li#notifs a, li#profile a, li#profile div {
+  cursor: default;
+}
+
+li#images a {
+  margin-right: 9px;
+}
+
+li#gmail a {
+  margin: 15px;
+}
+
+li#gmail a:hover, li#images a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* General */
+body {
+	background: #fff;
+	font-family: arial,sans-serif;
+}
+
+/* Logo and searchbox */
+div#content {
+  margin-top: 0;
+  clear: both;
+}
+#logo {
+	height: 233px;
+	margin-top: 50px;
+
+}
+
+#logo img {
+	height: 92px;
+	width: 272px;
+	padding-top: 109px;
+}
+
+form {
+	margin-top: 0;
+}
+
+input[type="search"] {
+	width: 584px;
+	height: 40px;
+	border: 1px solid #d0d0d0;
+	line-height: 0;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+input[type="submit"]:hover {
+	background-image: -webkit-liner-gradient(top,#f8f8f8, #f1f1f1)
+	background-color: #000000;
+	border:1px solid #c6c6c6;
+	box-shadow: 1px 1px #c6c6c6;
+	color: #222;
+}
+
+input[type="submit"] {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 27px;
+  margin: 32px 2px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Footer */
+#Footer {
+	display: block;
+	line-height: 40px;
+	background: #f2f2f2;
+	height: 40px;
+	position: absolute;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	right: 0px;
+	bottom: 0px;
+}
+
+#footer-left {
+	text-align: left;
+	font-size:13px;
+	display: inline-block;
+	float: left;
+	margin-left: 3px;
+}
+#footer-right {
+	text-align: right;
+	font-size:13px;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+
+}
+#Footer span a{
+	padding-left: 27px;
+	margin-left: 0;
+	text-decoration: none;
+	color: #222;
+	opacity: .75;
+
+}
